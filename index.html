@@ -26,21 +26,11 @@
 </head>
 
 <body>
-    <header>
-        <a href="#logo" class="logo">Foodeals</a>
-
-        <nav class="navigation">
-            <a href="#Corporate Site" class="CorporateSite">Corporate Site</a>
-            <a href="#icon" class="icon">icon</a>
-            <a href="#Login/Inscription" class="Login-Inscription">Login/Inscription</a>
-        </nav>
-    </header>
-
     <!-- Start Navbar -->
-    <!-- <header id="nav-br">
-        <nav class="navbar navbar-expand-lg navbar-light navigation">
+    <header id="nav-br">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand logo" href="#">Foodeals</a>
+                <a class="navbar-brand" href="#">Foodeals</a>
                 <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
@@ -48,36 +38,20 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link CorporateSite" href="#">Corporate Site</a>
+                            <a class="nav-link text-decoration-underline" href="#">Corporate Site</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link icon" href="#">Icon</a>
+                            <a class="nav-link" href="#">Icon</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-login Login-Inscription" href="#">Login/Inscription</a>
+                            <a class="nav-link btn-login" href="#">Login/Inscription</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-    </header> -->
+    </header>
     <!-- End Navbar -->
-
-    <!-- <section class="section-bg">
-
-        <div class="container">
-
-            <h1>Sauvez des invendus et luttez contre le gaspillage alimentaire</h1>
-            <p>Foodeals vous permet de dénicher à chaque moment des deals et <br> bons plans, en vous connectant
-                avec les meilleurs professionnels.</p>
-
-            <div class="btn-container">
-                <a href="#" class="btn btn-white">Découvrir nos solutions</a>
-                <a href="#" class="btn btn-secondary"><i
-                        class="bi bi-play-circle"></i><span>Inscription</span></a>
-            </div>
-        </div>
-    </section> -->
 
     <!-- Start Banner -->
     <section id="banner">
@@ -101,10 +75,14 @@
     </section>
     <!-- End Banner -->
 
-    <main>
+    <main id="app">
         <section class="section-card">
-            <div class="main-title">
-                <h2>Best seller</h2>
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <h2 class="text-center fw-bold py-5">Best seller</h2>
+                    </div>
+                </div>
             </div>
             <div class="card-wrapper">
                 <div class="card-container owl-carousel owl-theme">
@@ -145,8 +123,13 @@
 
         <!-- Starting Cards section New offers -->
         <section id="NewOfffers" style="background-color: #EBFCF5; margin-top: 6%;">
-            <div class="Offers-title">
-                <h2>New Offres</h2>
+
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <h2 class="text-center fw-bold py-5">New offres</h2>
+                    </div>
+                </div>
             </div>
 
             <div class="container cards-Offers ">
@@ -228,7 +211,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-8 col-lg-6 col-xl-4">
+                    <div class="col-md-4 col-lg-6 col-xl-4">
                         <div class="card text-black card-offers">
                             <i class="fab fa-apple fa-lg pt-3 pb-1 px-3"></i>
                             <div>
@@ -284,6 +267,104 @@
                     </div>
                 </div>
             </div>
+
+            <div>
+                <div class=" d-flex">
+                    <!-- <div class="">
+                        <h4 class="position-absolute m-4">Categories</h4>
+                    </div> -->
+                    <div class="row">
+                        <div class="col-md-12 d-flex justify-content-center">
+                            <div class="card-container">
+                                <div class="card-BestFoodForYou item">
+                                    <div class="">
+                                        <h4 class="position-absolute">Categories</h4>
+                                        <div class="py-5">
+                                            <div class="form-check d-flex">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault" checked />
+                                                <label class="form-check-label-category" for="flexCheckDefault">
+                                                    Fruit
+                                                </label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckChecked" />
+                                                <label class="form-check-label-category" for="flexCheckChecked">
+                                                    Vegetable
+                                                </label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckCheckThree" />
+                                                <label class="form-check-label-category" for="flexCheckThree">
+                                                    Expert
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="">
+                                        <h4 class="price">Price</h4>
+                                        <div class="py-5">
+                                            <div class="form-check d-flex">
+                                                <input class="form-check-input-price" type="checkbox" value=""
+                                                    id="flexCheckDefault" checked />
+                                                <label class="form-check-label-price" for="flexCheckDefault">
+                                                    $10-$100
+                                                </label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input class="form-check-input-price" type="checkbox" value=""
+                                                    id="flexCheckChecked" />
+                                                <label class="form-check-label-price" for="flexCheckChecked">
+                                                    $100-$500
+                                                </label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input class="form-check-input-price" type="checkbox" value=""
+                                                    id="flexCheckCheckThree" />
+                                                <label class="form-check-label-price" for="flexCheckThree">
+                                                    $500-$1000
+                                                </label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input class="form-check-input-price" type="checkbox" value=""
+                                                    id="flexCheckCheckThree" />
+                                                <label class="form-check-label-price" for="flexCheckThree">
+                                                    $1000-$5000
+                                                </label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input class="form-check-input-price" type="checkbox" value=""
+                                                    id="flexCheckCheckThree" />
+                                                <label class="form-check-label-price" for="flexCheckThree">
+                                                    $5000 or more
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Start Cards section Best Offers -->
+        <section class="py-5 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <a class="text-center fw-bold py-5 text-decoration-none" href="#">Our Parteners</a>
+                        <a class="text-center fw-blod py-5 text-decoration-none" href="#">Our Charities
+                            Parteners</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
 
 </body>
