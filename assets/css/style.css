@@ -560,6 +560,18 @@ body > main > section > div.card-wrapper > div > div.owl-nav > button.owl-next ,
   padding: 17px 34px 20px; */
 }
 
+.card-two {
+  /* display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; */
+  top: 166px;
+  position: relative !important;
+  /* width: 100% !important; */
+  height: 535px;
+  /* max-width: 387px;
+  padding: 17px 34px 20px !important; */
+}
+
 
 
 
@@ -576,32 +588,32 @@ body > main > section > div.card-wrapper > div > div.owl-nav > button.owl-next ,
 
 /* Target screens between 992px and 1199px */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  #navbarNav {
+  /* #navbarNav {
     padding-left: 10.5rem;
     justify-content: space-between;
-  } 
+  }  */
 }
 
 /* Target screens between 768px and 991px */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  #navbarNav {
+  /* #navbarNav {
     padding-left: 10.5rem;
     justify-content: space-between;
-  }
+  } */
 }
 
 /* Target screens between 576px and 767px */
 @media screen and (min-width: 576px) and (max-width: 767px) {
-  #navbarNav {
+  /* #navbarNav {
     padding-left: 10.5rem;
     justify-content: space-between;
-  }
+  } */
 }
 
 /* Target screens smaller than 576px */
 @media screen and (max-width: 575px) {
-  #navbarNav {
+  /* #navbarNav {
     padding-left: 2.5rem;
     justify-content: space-between;
-  }
+  } */
 }
