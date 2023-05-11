@@ -401,6 +401,7 @@ body > main > section > div.card-wrapper > div > div.owl-nav > button.owl-next ,
 }
 
 .form-check-input {
+  cursor: pointer !important;
   width: 1.25rem !important;
   height: 1.25rem !important ;
   margin-left: 1em !important;
@@ -433,19 +434,18 @@ body > main > section > div.card-wrapper > div > div.owl-nav > button.owl-next ,
 }
 
 .price {
-  position: absolute;
   margin-top: -16px;
   margin-left: 20px;
 }
 
-.form-check-input-price {
+.fci-price {
   width: 1.25rem !important;
   height: 1.25rem !important ;
   margin-top: -16px !important;
   margin-left: 19px !important;
 }
 
-.form-check-label-price {
+.fcl-price {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -458,14 +458,110 @@ body > main > section > div.card-wrapper > div > div.owl-nav > button.owl-next ,
   line-height: 160%;
 }
 
-.form-check-input-price:checked {
-    background-color: #39D192 !important;
-    border-color: #39D192 !important;
+.number1 {
+  margin-left: 9rem;
+  margin-top: 0.79rem;
+  background: #39D192;
+  height: 26px;
+  border-radius: 10px;
+  padding: 2px 11px;
+  color: #fff;
+  font-size: 15px;
 }
 
-.form-check-input-price[type=checkbox] {
-    border-radius: 0.25em;
+.number2 {
+  margin-left: 7rem;
+  margin-top: 0.79rem;
+  background: #39D192;
+  height: 26px;
+  border-radius: 10px;
+  padding: 2px 11px;
+  color: #fff;
+  font-size: 15px;
 }
+
+.number3 {
+  margin-left: 8.3rem;
+  margin-top: 1.30rem;
+  background: #39D192;
+  height: 26px;
+  border-radius: 10px;
+  padding: 2px 11px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.number4 {
+  margin-left: 7.5rem;
+  margin-top: -1.2rem;
+  background: #39D192;
+  height: 26px;
+  border-radius: 10px;
+  padding: 2px 11px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.number5 {
+  margin-left: 7rem;
+  margin-top: -1.2rem;
+  background: #39D192;
+  height: 26px;
+  border-radius: 10px;
+  padding: 2px 11px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.number6 {
+  margin-left: 6.5rem;
+  margin-top: -1.2rem;
+  background: #39D192;
+  height: 26px;
+  border-radius: 10px;
+  padding: 2px 11px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.number7 {
+  margin-left: 6rem;
+  margin-top: -1.2rem;
+  background: #39D192;
+  height: 26px;
+  border-radius: 10px;
+  padding: 2px 11px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.number8 {
+  margin-left: 5.5rem;
+  margin-top: -1.2rem;
+  background: #39D192;
+  height: 26px;
+  border-radius: 10px;
+  padding: 2px 11px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.cards-Offers-forYou {
+  top: -319px;
+  left: 550px;
+  position: relative !important;
+  width: 100% !important;
+  max-width: 387px;
+  /* height: 120% !important;
+  background: #FFFFFF;
+  box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.0818048);
+  border-radius: 24px !important;
+  overflow: hidden;
+  padding: 17px 34px 20px; */
+}
+
+
+
 
 /* -------------------------Media queries----------------------- */
 
